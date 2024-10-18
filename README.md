@@ -2,16 +2,3 @@
 Example Gradle project producing a single jar. Uses the `maven` plugin to publish the jar to the local repository.
 
 [https://jitpack.io/#jitpack/gradle-simple](https://jitpack.io/#jitpack/gradle-simple)
-
-To install the library add: 
- 
-   ```gradle
-   repositories { 
-        jcenter()
-        maven { url "https://jitpack.io" }
-   }
-   dependencies {
-         implementation 'com.github.jitpack:gradle-simple:1.1'
-   }
-   ```  
-
